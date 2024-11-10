@@ -37,9 +37,9 @@ console.log(blogsElements)
 // Let’s add a new item to the Past Menu Items list. Create a new <li> element, set the text to “Rose Cake”, and append it to the list.
 const listElement = document.querySelector('#past-menu-items')
 const newElement = document.createElement('li')
-newElement.textContent = 'Rose Cake';
-listElement.appendChild(newElement);
-console.log(newElement);
+newElement.textContent = 'Rose Cake'
+listElement.appendChild(newElement)
+console.log(newElement)
 
 
 
@@ -66,8 +66,8 @@ newH.textContent = 'Karak Tea Tasting Event'
 const newP = document.createElement('p')
 newP.textContent = 'We held an amazing Kara tea tasting Event, mixing taste with culture!'
 
-const blogsSection = document.querySelector('#blogs');
-blogsSection.appendChild(newBlog);
+const blogsSection = document.querySelector('#blogs')
+blogsSection.appendChild(newBlog)
 
 newBlog.appendChild(newH)
 newBlog.appendChild(newP)
